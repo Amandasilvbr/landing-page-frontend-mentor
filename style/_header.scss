@@ -1,0 +1,78 @@
+header {
+  background-color: $background;
+  height: 5vh;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  align-items: center;
+  padding: 50px 50px 0px 50px;
+
+  #first-part {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+  }
+
+  #logo-img {
+    width: 100px;
+    margin-right: 58px;
+  }
+
+  a {
+    @include navbar;
+  }
+
+  ul {
+    @include navbar;
+
+    li {
+      margin-top: 10px;
+      height: 20px;
+    }
+
+    .li-company{
+      margin-left: 10px;
+    }
+  }
+
+  span {
+    margin-right: 50px;
+    z-index: 2;
+    position: relative;
+  }
+
+  #freatures-container,
+  #company-container {
+    display: none;
+    z-index: 2;
+    background-color: white;
+    width: 150px;
+    padding: 5px 10px 10px 10px;
+    margin-top: 10px;
+    border-radius: 10px;
+    box-shadow: rgba(149, 157, 165, 0.2) 0px 8px 24px;
+
+    img {
+      margin-right: 10px;
+    }
+  }
+
+  .img-navbar {
+    height: 8px;
+    margin-left: 10px;
+  }
+
+  #btn-register {
+    z-index: 2;
+    position: relative;
+    background-color: $background;
+    border: 1px solid $secundary-color;
+    border-radius: 15px;
+    font-family: $font;
+    font-size: 18px;
+    color: $secundary-color;
+    padding: 10px 20px 10px 20px;
+    cursor: pointer;
+  }
+}

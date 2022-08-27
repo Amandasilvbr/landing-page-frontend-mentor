@@ -1,0 +1,74 @@
+main {
+  background-color: $background;
+  padding: 0px 200px 0px 200px;
+  width: 100vw;
+  height: 95vh;
+  font-family: $font;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-around;
+  align-items: center;
+}
+
+// Texts side
+#text-side {
+  width: 50%;
+  height: 85%;
+  padding-top: 150px;
+  position: relative;
+
+  #text-main {
+    width: 58%;
+    line-height: 35px;
+    font-size: 22px;
+    font-weight: 400;
+    color: $secundary-color;
+    padding-bottom: 40px;
+  }
+
+  #title {
+    font-size: 90px;
+    font-weight: 800;
+    margin-bottom: 70px;
+  }
+
+  #btn-learn {
+    z-index: 2;
+    position: relative;
+    background-color: $primary-color;
+    color: white;
+    font-size: 20px;
+    font-weight: bold;
+    padding: 10px 20px 10px 20px;
+    margin: 30px 0px 15px 0px;
+    border: none;
+    border-radius: 15px;
+    padding: 15px 25px 15px 25px;
+    cursor: pointer;
+    
+    &:hover {
+      background-color: $background;
+      color: $primary-color;
+      border: 1px solid $primary-color;
+      font-weight: bold;
+    }
+  }
+
+  #imgs-logo {
+    position: absolute;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    bottom: 0px;
+
+    .logo-svg {
+      margin-right: 70px;
+    }
+  }
+}
+
+// Img side
+#img-main {
+  height: 800px;
+}

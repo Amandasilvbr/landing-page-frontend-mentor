@@ -1,0 +1,102 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="icon" type="image/png" sizes="32x32" href="./images/favicon-32x32.png">
+  <link rel="stylesheet" href="/style/style.css">
+  <title>Frontend Mentor | Intro section with dropdown navigation</title>
+</head>
+
+<body>
+
+  <!-- When the user clicks on the div, the float button leave the screen -->
+  
+  <div id="div-display"></div>
+  <header>
+
+    <!-- First part of header -->
+
+    <div id="first-part">
+      <img id="logo-img" src="/img/logo.png" alt="Logo">
+
+      <!-- Float button -->
+
+      <ul>
+        <span id="freatures">
+          Freatures
+        <img class="img-navbar" src="/img/icon-arrow-down.svg" alt="Arrow down">
+        </span>
+        <div id="freatures-container">
+          <li class="li-freatures"><a href="#"></a> <img src="/img/icon-todo.svg" alt="Icon todo list"> Todo list</li>
+          <li class="li-freatures"><a href="#"></a> <img src="/img/icon-calendar.svg" alt=""> Calendar</li>
+          <li class="li-freatures"><a href="#"></a> <img src="/img/icon-reminders.svg" alt=""> Reminders</li>
+          <li class="li-freatures"><a href="#"></a> <img src="/img/icon-planning.svg" alt=""> Planning</li>
+        </div>
+      </ul>
+
+      <!-- Float button -->
+
+      <ul>
+        <span id="company" class="a">
+          Company
+          <img class="img-navbar" src="/img/icon-arrow-down.svg" alt="Arrow down">
+        </span>
+        <div id="company-container">
+          <li class="li-company"><a href="#"></a>History</li>
+          <li class="li-company"><a href="#"></a>Our team</li>
+          <li class="li-company"><a href="#"></a>Blog</li>
+        </div>
+      </ul>
+
+      <!-- Normal button -->
+
+      <a href="#" class="hidden-float-menu">
+        <span>Careers</span>
+      </a>
+      <a href="#" class="hidden-float-menu">
+        <span>About</span>
+      </a>
+    </div>
+
+    <!-- Second part of header -->
+
+    <div>
+      <a href="#" class="hidden-float-menu">
+        <span>Login</span>
+      </a>
+      <button id="btn-register" class="hidden-float-menu">Register</button>
+    </div>
+  </header>
+
+  <main id="site-main">
+
+    <!-- Text side -->
+
+    <section id="text-side">
+      <p id="title">Make <br> remote work</p>
+      <p id="text-main">
+        Get your team in sync, no matter your location. <br> Streamline processes,
+        create team rituals, and watch productivity soar.
+      </p>
+      <button id="btn-learn" class="hidden-float-menu">Learn more</button>
+      <div id="imgs-logo">
+        <img class="logo-svg" src="/img/client-databiz.svg" alt="Logo databiz">
+        <img class="logo-svg" src="/img/client-audiophile.svg" alt="Logo audiophile">
+        <img class="logo-svg" src="/img/client-meet.svg" alt="Logo meet">
+        <img class="logo-svg" src="/img/client-maker.svg" alt="Logo maker">
+      </div>
+    </section>
+
+    <!-- Img side -->
+
+    <section>
+      <img id="img-main" src="/img/image-hero-desktop.png" alt="Men with a computer and geometric forms">
+    </section>
+  </main>
+
+  <script src="/js/index.js"></script>
+</body>
+
+</html>

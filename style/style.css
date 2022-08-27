@@ -1,0 +1,159 @@
+@import url("https://fonts.googleapis.com/css2?family=Epilogue:wght@400;800&display=swap");
+* {
+  padding: 0;
+  margin: 0;
+  list-style-type: none;
+  text-decoration: none;
+  box-sizing: border-box;
+}
+
+header {
+  background-color: hsl(0deg, 0%, 98%);
+  height: 5vh;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  align-items: center;
+  padding: 50px 50px 0px 50px;
+}
+header #first-part {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+}
+header #logo-img {
+  width: 100px;
+  margin-right: 58px;
+}
+header a {
+  font-family: "Epilogue", Arial, Helvetica, sans-serif;
+  font-size: 18px;
+  height: 20px;
+  color: hsl(0deg, 0%, 41%);
+  cursor: pointer;
+}
+header ul {
+  font-family: "Epilogue", Arial, Helvetica, sans-serif;
+  font-size: 18px;
+  height: 20px;
+  color: hsl(0deg, 0%, 41%);
+  cursor: pointer;
+}
+header ul li {
+  margin-top: 10px;
+  height: 20px;
+}
+header ul .li-company {
+  margin-left: 10px;
+}
+header span {
+  margin-right: 50px;
+  z-index: 2;
+  position: relative;
+}
+header #freatures-container,
+header #company-container {
+  display: none;
+  z-index: 2;
+  background-color: white;
+  width: 150px;
+  padding: 5px 10px 10px 10px;
+  margin-top: 10px;
+  border-radius: 10px;
+  box-shadow: rgba(149, 157, 165, 0.2) 0px 8px 24px;
+}
+header #freatures-container img,
+header #company-container img {
+  margin-right: 10px;
+}
+header .img-navbar {
+  height: 8px;
+  margin-left: 10px;
+}
+header #btn-register {
+  z-index: 2;
+  position: relative;
+  background-color: hsl(0deg, 0%, 98%);
+  border: 1px solid hsl(0deg, 0%, 41%);
+  border-radius: 15px;
+  font-family: "Epilogue", Arial, Helvetica, sans-serif;
+  font-size: 18px;
+  color: hsl(0deg, 0%, 41%);
+  padding: 10px 20px 10px 20px;
+  cursor: pointer;
+}
+
+main {
+  background-color: hsl(0deg, 0%, 98%);
+  padding: 0px 200px 0px 200px;
+  width: 100vw;
+  height: 95vh;
+  font-family: "Epilogue", Arial, Helvetica, sans-serif;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-around;
+  align-items: center;
+}
+
+#text-side {
+  width: 50%;
+  height: 85%;
+  padding-top: 150px;
+  position: relative;
+}
+#text-side #text-main {
+  width: 58%;
+  line-height: 35px;
+  font-size: 22px;
+  font-weight: 400;
+  color: hsl(0deg, 0%, 41%);
+  padding-bottom: 40px;
+}
+#text-side #title {
+  font-size: 90px;
+  font-weight: 800;
+  margin-bottom: 70px;
+}
+#text-side #btn-learn {
+  z-index: 2;
+  position: relative;
+  background-color: hsl(0deg, 0%, 8%);
+  color: white;
+  font-size: 20px;
+  font-weight: bold;
+  padding: 10px 20px 10px 20px;
+  margin: 30px 0px 15px 0px;
+  border: none;
+  border-radius: 15px;
+  padding: 15px 25px 15px 25px;
+  cursor: pointer;
+}
+#text-side #btn-learn:hover {
+  background-color: hsl(0deg, 0%, 98%);
+  color: hsl(0deg, 0%, 8%);
+  border: 1px solid hsl(0deg, 0%, 8%);
+  font-weight: bold;
+}
+#text-side #imgs-logo {
+  position: absolute;
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+  bottom: 0px;
+}
+#text-side #imgs-logo .logo-svg {
+  margin-right: 70px;
+}
+
+#img-main {
+  height: 800px;
+}
+
+#div-display {
+  height: 100vh;
+  width: 100vw;
+  z-index: 1;
+  position: fixed;
+}/*# sourceMappingURL=style.css.map */

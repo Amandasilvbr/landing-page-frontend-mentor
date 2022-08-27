@@ -1,0 +1,33 @@
+// colors
+$primary-color: hsl(0, 0%, 8%);
+$secundary-color: hsl(0, 0%, 41%);
+$background: hsl(0, 0%, 98%);
+
+// font
+$font: "Epilogue", Arial, Helvetica, sans-serif;
+
+// mixins- navbar text format
+
+@mixin navbar {
+  font-family: $font;
+  font-size: 18px;
+  height: 20px;
+  color: $secundary-color;
+  cursor: pointer;
+}
+
+// mixins- media query
+
+@mixin devices($breakpoint) {
+  @if $breakpoint==tablet {
+    @media only screen and (max-width: 768px) {
+      @content;
+    }
+  }
+
+  @if $breakpoint==mobile {
+    @media only screen and (max-width: 481px) {
+      @content;
+    }
+  }
+}
