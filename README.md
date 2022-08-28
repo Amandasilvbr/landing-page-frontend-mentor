@@ -5,7 +5,8 @@ O design do desafio é de total autoria do site Frontend Mentor. Todo o código,
 ✔️ O menu dropdown foi feito com Js;
 
 ✔️Toda a estilização foi feita em SCSS, e compilada para CSS;
-    -Todos os arquivos .sccs seguem a seguinte divisão: header, main, reset, variables e divDisplay;
+
+    -Os os arquivos .sccs seguem a seguinte divisão: header, main, reset, variables e divDisplay;
 
 ✔️O código js pode ser refatorado a qualquer momento, buscando melhor desempenho;
 
